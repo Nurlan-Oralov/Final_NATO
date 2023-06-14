@@ -90,7 +90,7 @@ This documentation follows a consistent format and style to enhance readability.
 **14. Diagrams and Visuals**
 Visual representations, such as UML, Use-Case, and ERD diagrams, provide a clear understanding of the project's structure and interactions. Refer to the provided diagrams in the documentation for visual guidance.
 
-**ERD diagram:**
+**ER diagram:**
   ![image](https://github.com/Nurlan-Oralov/Final_NATO/assets/76832263/490900e4-1dbf-4e94-bf4e-cfdb25446f05)
   
   **User:** Represents a user of the system. It include attributes such as user ID, username, email, password, profile picture, and registration date.
@@ -102,6 +102,8 @@ Visual representations, such as UML, Use-Case, and ERD diagrams, provide a clear
   **Upvote:** Represents an upvote made by a user on a post. It include attributes such as upvote ID, user ID (foreign key to the User entity), and post ID (foreign key to the Post entity).
   
   **Downvote:** Represents a downvote made by a user on a post. It include attributes such as downvote ID, user ID (foreign key to the User entity), and post ID (foreign key to the Post entity).
+  
+  **UML diagram:**
 
 
 **15. References and Resources**
